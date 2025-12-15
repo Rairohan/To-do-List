@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:10px;
+  border:1px solid black;
+  border-radius: 10px;
+  max-width: 400px;
+  margin:50px auto;
+  font-family:sans-serif;
+  transition: transform 0.5s ease-in-out;
+}
+.form > h2{
+  margin: 10px auto;
+}
+.form input,.form textarea,.form select,
+.form3 input,.form3 textarea,.form3 select{
+  padding: 10px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  width:210px ;
+  resize: none;
+}
+.form:hover,.form2:hover,.form3:hover{
+  transform: scale(1.1);
+}
+.form button,.form2 button ,.form3 button{
+  margin-bottom: 10px;
+  height: 25px;
+  width: 100px;
+  border-radius: 10px;
+  background-color:rgb(93, 144, 246);
+}
+.form2{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:10px;
+  border:1px solid black;
+  border-radius: 10px;
+  max-width: 400px;
+  margin:50px auto;
+  font-family:sans-serif;
+  transition: transform 0.5s ease-in-out;
+}
+.form3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:10px;
+  border:1px solid black;
+  border-radius: 10px;
+  max-width: 400px;
+  margin:50px auto;
+  font-family:sans-serif;
+  transition: transform 0.5s ease-in-out;
+}
+.create,.create:visited,.Edit,.Edit:visited{
+  text-decoration: none;
+  color: rgb(11, 5, 2);
+}
+.create:hover,.Edit:hover{
+  color: rgb(204, 105, 25);
+}
